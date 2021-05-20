@@ -1,0 +1,53 @@
+/*
+Border shorthand looks like this:
+
+p{
+    border: 5px solid red;
+}
+The order is: border-width border-style(required) border-color
+*/
+body{
+    background-color: grey;
+}
+.wrapper{
+    margin: 5px;
+}
+h1{
+    text-align: center;
+}
+#title-p{
+    text-align: center;
+}
+
+/*3*/
+.border-style li{
+    margin: 5px;
+
+}
+
+.border-style li:nth-child(1){
+    border-style: dotted;
+}
+
+.border-style li:nth-child(2){
+    border-style: dashed;
+}
+
+.border-style li:nth-child(3){
+    border-style: dashed;
+}
+
+.border-style li:nth-child(4){
+    border-style: dotted;
+}
+
+/*4*/
+.border-width p{
+    border-style: solid;
+    border-width: 5px;
+}
+
+#four-widths{
+    border-style: solid;
+    border-width: 2px 10px 4px 20px;
+}
